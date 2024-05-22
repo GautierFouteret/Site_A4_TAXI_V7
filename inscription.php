@@ -52,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <li><a href="index.html #flotte">Flotte</a></li>
                 <li><a href="index.html #services">Services</a></li>
                 <li><a href="reservation.php">Réserver un taxi</a></li>
-                <li><a href="inscription.php">Inscritpion</a></li>
+                <li><a href="inscription.php">Inscription</a></li>
                 <li><a href="connexion.php">Connexion</a></li>
                 <li><a href="gestion_utilisateur.php">Gérer un utilisateur</a></li>
             </ul>
