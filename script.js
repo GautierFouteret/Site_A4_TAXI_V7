@@ -38,10 +38,11 @@ $(document).ready(function() {
         // Envoi des données à calcule_distance.php via AJAX pour obtenir la distance
         $.get('calcule_distance.php', { departure: departure, arrival: arrival }, function(distance) {
             // Calcul du tarif en fonction de la distance (à remplacer par votre fonction de calcul de tarif)
-            var tarif = distance * 1.5; // Exemple de calcul de tarif
-
+            var tarif = distance * 1; // Exemple de calcul de tarif
+            
             // Affichage du tarif
             $('#tarif-message').text('Le tarif de votre course est de : ' + tarif.toFixed(2) + ' euros');
         });
     });
+});
 });
